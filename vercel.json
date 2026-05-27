@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd \"hamburgueria-da-vila\" && npm run build",
+  "outputDirectory": "hamburgueria-da-vila/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
